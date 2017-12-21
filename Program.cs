@@ -17,6 +17,7 @@ namespace AnalysisEvaluationListener
             {
                 Console.WriteLine($"Listening for messages at: {baseAddress}");
                 Console.WriteLine("Press enter to finish");
+                Console.WriteLine();
                 Console.Read();
             }
         }
